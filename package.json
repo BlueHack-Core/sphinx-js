@@ -1,6 +1,10 @@
 {
   "name": "sphinx-js",
+<<<<<<< HEAD
+  "version": "0.0.4",
+=======
   "version": "0.0.1",
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
   "license": "MIT",
   "description": "Sphinx API.",
   "main": "dist/components/Sphinx.js",
@@ -14,7 +18,11 @@
     "test-verbose": "DEBUG=sphinx* npm test",
     "lint": "gulp lint",
     "make-docs": "node_modules/.bin/jsdoc -c .jsdoc.json --verbose",
+<<<<<<< HEAD
+    "release": "./release.sh 0.0.4",
+=======
     "release": "./release.sh 0.0.1",
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
     "codecov": "nyc report --reportertext-lcov > coverage.lcov && codecov"
   },
   "babel": {
@@ -89,7 +97,11 @@
     "url": "git://github.com/Bluehack-Core/sphinx-js.git"
   },
   "keywords": [
+<<<<<<< HEAD
+    "sphinx",
+=======
     "apiway",
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
     "api"
   ],
   "bugs": {

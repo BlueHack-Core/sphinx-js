@@ -1,6 +1,9 @@
 .sass-cache/
 _site/
+<<<<<<< HEAD
+=======
 docs/
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
 dist/
 coverage/
 node_modules/

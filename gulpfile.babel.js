@@ -39,12 +39,20 @@ gulp.task('build', [
 const bundledConfig = {
    debug: true,
    entries: 'lib/Sphinx.js',
+<<<<<<< HEAD
    standalone: 'Sphinx',
+=======
+   standalone: 'ApiWay',
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
 };
 const externalConfig = {
    debug: true,
    entries: 'lib/Sphinx.js',
+<<<<<<< HEAD
    standalone: 'Sphinx',
+=======
+   standalone: 'ApiWay',
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
    external: [
       'axios',
       'js-base64',
@@ -79,7 +87,11 @@ function buildBundle(options, extname, minify) {
    let stream = browserify(options)
       .transform('babelify')
       .bundle()
+<<<<<<< HEAD
       .pipe(source('Sphinx.js'))
+=======
+      .pipe(source('ApiWay.js'))
+>>>>>>> 1101fd730e54a3efe5fa1536b75d73f68f120e2f
       .pipe(buffer())
       .pipe(sourcemaps.init({
          loadMaps: true,
